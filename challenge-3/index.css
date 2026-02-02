@@ -1,0 +1,262 @@
+*{
+margin: 0;  
+padding: 0;  
+box-sizing: border-box;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.92);
+    font-family:'Times New Roman', Times, serif;
+    
+}
+header{
+  background-color: black;  
+  color: white;
+  padding: 15px;
+  
+}
+.logo{
+    font-size: 17x;
+    font-weight: bold;
+}
+header nav div{
+    font-size: 18px;
+    color: deeppink;
+   margin-right: 500px;
+   font-weight: bold;
+}
+header nav ul{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    gap: 20px;
+    margin: 0 40px 40px;
+    
+}
+header nav ul li{
+    list-style-type: none;
+    
+}
+header nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 15px;
+    text-transform:capitalize;
+    
+}
+.btn{
+    padding: 5px 12px;
+    border-radius: 30px;
+    border: none;
+    background-color: deeppink;
+    font-size: 16px;
+    text-transform: capitalize;
+    box-shadow: 2px 3px 20px deeppink;
+    font-weight: bold;
+}
+.hero-section{
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    
+   
+}
+.hero-section .text {
+    color: whitesmoke;
+    font-size: 30px;
+   
+}
+ .text p{
+  font-size: 15px;
+
+ }
+.text span{
+    color: deeppink;
+}
+.bt-2026{
+    border: 1px solid deeppink;
+    border: none;
+    background-color: deeppink;
+    box-shadow: 2px 4px 10px deeppink;
+    margin: 0 20px ;
+    font-size: 18px;
+    padding: 4px 5px;
+}
+
+.boxes{
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    margin-top: 20px;
+    color: whitesmoke;
+    
+}
+.box h1{
+    color: deeppink;
+    padding: 5px;
+}
+.box p{
+ text-transform: uppercase;   
+ font-size: 12px;
+}
+.button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: start;
+    gap: 30px;
+    
+}
+button{
+    padding: 8px 12px;
+    border: 1px solid deeppink;
+    background-color: deeppink;
+    text-transform: uppercase;
+    border: none;
+    margin: 0 10px;
+  
+}
+.btn-2{
+    background: transparent;
+    background-color: white;
+}
+
+ .img{
+    
+ }
+ img{
+    width: 600px;
+    height: auto;
+ }
+
+ .container{
+    background-color: black;
+
+ }
+ .title{
+    text-align: center;
+    color: white;
+ }
+ .btn-all{
+    text-align: center;
+    line-height: ;
+ }
+ .btn-11{
+     padding: 8px 12px;
+    border: 1px solid deeppink;
+    background-color: whitesmoke;
+    text-transform: uppercase;
+    border: none;
+    margin-top: 14px;
+ }
+ .container{
+    max-width: 100%;
+    max-height: 100%;
+ }
+
+ .cards{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+     justify-content: center;
+    align-items: center; 
+    gap: 20px;
+   color: white;
+   margin: 30px;
+   text-transform: capitalize;
+ }
+ .card img{
+    width: 250px;
+    height: 250px;
+    
+ }
+ .card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 20px;
+   border: 1px solid deeppink;
+   background-color: black;
+   border-radius:20px;
+   border: none;
+ }
+
+ .add{
+    margin-top: 10px;
+    font-size: 20px;
+    background-color: green;
+    border: 1px solid green;
+    border: none;
+    padding: 4px 35px;
+    border-radius: 4px;
+    
+ }
+ .container-1{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+background-color: black;
+color: white;
+ }
+ .container-2{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+ }
+ .container-2 h5{
+    text-transform: capitalize;
+    color: deeppink;
+    font-size: 18px;
+ }
+
+ .boxed{
+   display: flex; 
+   justify-content: center;
+   align-items: center;
+   text-align: center;
+   
+ }
+ .boxe{
+    border: 1px solid deeppink;
+    border-radius: 20px;
+    border: none;
+    padding: 20px 20px;
+    background-color: black;
+    width: 150px;
+    height: 200px;
+    margin: 20px;
+    
+   
+ }
+ .boxe i{
+    font-size: 20px;
+    background-color: deeppink;
+    border: 2px solid deeppink;
+    border-radius: 100%;
+    padding: 20px;
+    
+ }
+ .customer{
+    background-color: black;
+    color: white;
+    text-transform: capitalize;
+ }
+ .feed{
+    display: flex;
+    justify-content:space-around;
+    margin: 20px 40px;
+    gap: 20px;
+    
+    
+ }
+ .feed .para{
+border: 1px solid deeppink;
+border-radius: 10px;
+background-color: white;
+color:black;
+padding: 20px;
+
+ }
+.tit{
+    text-align: center;
+}
