@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: serif;
+    background-image: url(/Challenge-7/images/pexels-shkrabaanthony-7163354.jpg);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size:contain;
+}
+header {
+    background-color: #BFC6C4;
+    color: white;
+    text-transform: capitalize;
+}
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+
+}
+nav ul li{
+    list-style-type: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.icons{
+    display: flex;
+    gap: 10px;
+}
+.icons i{
+    font-size: 30px;
+    color: green;
+}
+
+.hero{
+    padding: 120px;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+.hero h1{
+    font-size: 50px;
+}
+.btn{
+ padding: 12px 18px;   
+ background-color: green;
+ border: none;
+ margin-top: 15px;
+ text-transform: capitalize;
+ color: white;
+ font-size: 20px;
+}
+.hero-sec{
+    margin-top: 200px;
+    padding: 100px;
+    background-color:#FCF2EB;
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.div{
+    padding: 20px;
+    border: none;
+    line-height: 1.7rem;
+}
+.div h1{
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 2.4rem;
+}
+.btn-1{
+    padding: 5px ;
+    border: none;
+    font-size: 15px;
+    color: green;
+    margin-top: 5px;
+
+}
+.div-1{
+    padding: 30px;
+    text-align: center;
+    font-family: serif;
+    font-size: 18px;
+    line-height: 1.7rem;
+    text-transform: capitalize;
+}
+.container{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.div-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 4px 9px #FCF2EB;
+    padding: 20px;
+}
